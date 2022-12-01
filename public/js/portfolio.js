@@ -30,5 +30,4 @@ function resumeModal(e) {
     const height = Math.max(document.documentElement.clientHeight, window.innerHeight || 0) - container.offsetTop;
     document.getElementById("resume").style.height=`${height}px`;
     container.dataset.ran = 1;
-    debugger
 }
